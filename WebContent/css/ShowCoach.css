@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+body{
+	background-color: #000000;
+}
+ul li{
+	list-style-type:none;
+	display:inline;
+	color: white;
+	margin: 5px;
+}
+
+.lead{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	font-size: 20px;
+	display: flex;
+	margin-left: 20px;
+}
+.lead ul{
+	flex: 70%;
+	margin-left: 80px;
+}
+.private{
+	display: flex;
+	color: white;
+}
+.private_1{
+	
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+	color: white;
+	border-bottom: 1px solid white;
+}
+.service_bg {
+    width: 100%;
+    /* height: 515px; */
+    background: url(../img/pic/bg.png) center no-repeat;
+    background-size: 100% 100%;
+}
+.service {
+    width: 660px;
+    height: 380px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.service h2 {
+    font-size: 48px;
+    color: #cc3333;
+    text-align: center;
+}
+.service p {
+    font-size: 24px;
+    color: #cc3333;
+    text-align: center;
+    margin: 20px 0;
+}
+.service .selectlist {
+    width: 660px;
+    height: 60px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.selectlist .form-group {
+    padding-top: 32px;
+    float: left;
+    overflow: hidden;
+    margin-right: 17px;
+}
+.selectlist .form-group .list {
+    width: 190px;
+    float: left;
+    height: 32px;
+    line-height: 32px;
+    width: 190px;
+    padding-left: 10px;
+    font-size: 14px;
+    color: #fff;
+    background-color: rgba(31,31,31,0.4);
+    border: 1px solid #656565;
+    position: relative;
+}
+.selectlist .form-group .list span {
+    width: 190px;
+    height: 32px;
+    line-height: 32px;
+    position: absolute;
+    background: url(../img/icon/more3.png) 166px center no-repeat;
+}
+.selectlist .form-group select option {
+    color: #b8412c;
+    background: #1F1F1F;
+}
+.selectlist .form-group .list select {
+    width: 200px;
+    height: 32px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+option {
+    font-weight: normal;
+    display: block;
+    white-space: pre;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+}
+
+.service .inp {
+    position: relative;
+    margin-left: 52px;
+    width: 700px;
+}
+.service .inp span {
+    color: #fff;
+    position: absolute;
+    font-size: 18px;
+    top: 27px;
+    left: 20px;
+}
+.service .inp input[type=text] {
+    width: 454px;
+    height: 50px;
+    background: rgba(255, 255, 255, .2);
+    border: none;
+    margin: 15px auto;
+    padding-left: 76px;
+    color: #fff;
+}
+.service button {
+    width: 195px;
+    height: 50px;
+    margin-left: 210px;
+    margin-top: 35px;
+    border: none;
+    background: #cc3333;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+input, textarea, select {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    *font-size: 100%;
+}
+
